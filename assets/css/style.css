@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #256b47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid red;
+}
+
+.InputIngreso{
+    width: 80%;
+}
+
+.contenedor-tareas {
+    border: 1.5px solid #b73d3d;
+    padding: 10px;
+}
+
+.titulos{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.columna-id {
+    width: 25%;
+}
+
+.columna-tarea {
+    width: 60%;
+}
+
+.columna-check {
+    width: 10%;
+    text-align: center;
+}
+
+.columna-borrar {
+    width: 20%;
+    text-align: center;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+
+
+.btn-borrar {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-borrar:hover {
+  color: darkred;
+}
+
+.columna-completado {
+  width: 20%;
+  color: blue;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
